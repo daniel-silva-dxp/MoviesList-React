@@ -1,0 +1,80 @@
+.wrap-movies {
+	background-color: #fff;
+	padding: 5px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.55);
+	-moz-box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.55);
+	box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.55);
+}
+.title {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #28f5be;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.items {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+.items article {
+	position: relative;
+	flex-basis: 100%;
+	height: auto;
+	margin-bottom: 6px;
+}
+.items article img {
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+}
+.items article .text {
+	position: absolute;
+	top: 100%;
+	right: 100%;
+	bottom: 100%;
+	left: 100%;
+	background-color: #28f5be;
+	opacity: .8;
+	overflow: hidden;
+	transition: all .4s ease-in-out;
+}
+.items article:hover .text {
+	top: 5px;
+	right: 5px;
+	bottom: 5px;
+	left: 5px;
+}
+.items article .text h1,
+.items article .text a {
+	text-transform: uppercase;
+	position: absolute;
+}
+.items article .text h1 {
+	font-weight: 700;
+	font-size: 18px;
+	top: 5px;
+	left: 5px;
+}
+.items article .text a {
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 600;
+	font-size: .8em;
+	right: 5px;
+	bottom: 5px;
+}
+@media (min-width: 431px) {
+	.items article {
+		flex-basis: 49.5%;
+	}
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+	.items article {
+		flex-basis: 33%;
+	}
+}
