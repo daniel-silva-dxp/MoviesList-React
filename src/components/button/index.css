@@ -1,0 +1,35 @@
+button {
+	outline: 0;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+.btn {
+	display: inline-block;
+	margin: 2px;
+	border: 1px solid #28f5be;
+	border-radius: 2px;
+	text-align: center;
+	font-family: "Roboto Mono", monospace;
+	font-weight: 600;
+	-webkit-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+.btn-medium {
+	height: 35px;
+	line-height: 35px;
+	padding: 0 20px;
+	border-radius: 3px;
+	font-size: 12px;
+}
+.btn-dark {
+	color: #fff;
+	background: #28f5be;
+}
+.btn-dark:hover {
+	background: #fff;
+	color: #1e1e1e;
+}
