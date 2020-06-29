@@ -1,0 +1,35 @@
+.header {
+	width: 100%;
+	height: auto;
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	-webkit-box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.55);
+	-moz-box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.55);
+	box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.55);
+}
+.align-items {
+	display: flex;
+	flex-flow: row wrap-reverse;
+	justify-content: center;
+	align-items: center;
+}
+.container img {
+	max-width: 400px;
+}
+.wrap-text {
+	max-width: 700px;
+	padding: 10px;
+}
+.wrap-text h1 {
+	font-size: 52px;
+	line-height: 45px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.wrap-text h4 {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #28f5be;
+}
