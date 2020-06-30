@@ -13,7 +13,6 @@ class Home extends Component {
 
 	async componentDidMount() {
 		this.setMovies(await this.getMovies());
-		console.log(await this.getMovies());
 	}
 
 	async getMovies() {

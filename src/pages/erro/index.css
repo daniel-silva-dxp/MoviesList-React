@@ -1,7 +1,7 @@
 .wrap-erro {
 	padding: 200px;
 	display: flex;
-	flex-flow: row wrap;
+	flex-flow: row wrap-reverse;
 	align-items: center;
 	justify-content: center;
 	background-color: #fff;
@@ -11,6 +11,7 @@
 }
 .wrap-erro .text-erro {
 	max-width: 500px;
+	margin: 20px;
 }
 .wrap-erro .text-erro h1 {
 	font-size: 72px;

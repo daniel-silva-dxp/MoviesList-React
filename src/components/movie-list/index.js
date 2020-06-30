@@ -14,7 +14,7 @@ const MovieList = ({ movies }) => {
 							<img src={movie.foto} alt="" />
 							<div className="text">
 								<h1>{movie.nome}</h1>
-								<Link to="/">view more</Link>
+								<Link to={`/movie/${movie.id}`}>view more</Link>
 							</div>
 						</article>
 					))}
